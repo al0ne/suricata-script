@@ -1,4 +1,4 @@
-# Suricata-script
+# suricata-script
 
 监控脚本
 
@@ -31,3 +31,7 @@
     rules=`cat /var/lib/suricata/rules/suricata.rules|ag '^alert'|wc -l`
     printf "加载规则: %s 条\n" $rules
     done
+
+具体效果
+
+![image](https://github.com/al0ne/Suricata-script/raw/master/ids.jpg)
